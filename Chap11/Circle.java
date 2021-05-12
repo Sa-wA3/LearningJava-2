@@ -1,3 +1,5 @@
+
+//--- 単一型インポート宣言 ---//
 import java.util.Scanner; //ここでimport宣言をしているから
 
 public class Circle {
