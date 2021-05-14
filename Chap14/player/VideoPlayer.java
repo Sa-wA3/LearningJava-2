@@ -15,7 +15,7 @@ public class VideoPlayer implements Player {
         }
 
         public void printInfo() {
-            Sytem.out.println("本機の製造番号は[" + id + "]です。");
+            System.out.println("本機の製造番号は[" + id + "]です。");
         }
 
 }
