@@ -1,4 +1,4 @@
-public class Parallelogram extends Shape implements Plane2D {
+public class Parallelogram extends Shape  {
     private int width;
     private int height;
 

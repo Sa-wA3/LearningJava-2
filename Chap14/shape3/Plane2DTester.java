@@ -1,13 +1,13 @@
 public class Plane2DTester {
 
     public static void main(String[] args) {
-        Shape[] a = new Shape[2];
+        Rectangle[] a = new Rectangle[2];
         a[0] = new Rectangle(5, 4);
-        a[1] = new Parallelogram(5, 4);
+        a[1] = new Rectangle1(5, 4);
 
-        for (Shape s : a) {
-            s.print();
-            s.getArea();
+        for (Rectangle s : a) {
+            s.print();  //こっちは通る
+            s.getHoge(); //通ってほしい
             System.out.println();
         }
     } 

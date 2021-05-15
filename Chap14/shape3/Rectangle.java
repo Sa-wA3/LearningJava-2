@@ -1,4 +1,4 @@
-public class Rectangle extends Shape implements Plane2D {
+public class Rectangle extends Shape  {
     private int width;
     private int height;
 
@@ -19,6 +19,14 @@ public class Rectangle extends Shape implements Plane2D {
             System.out.println();
         }
     }
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width; 
+    }
+
 
     public int getArea() {
         return width * height;
